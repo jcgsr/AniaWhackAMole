@@ -1,0 +1,28 @@
+*, html {
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.square {
+   width: 200px;
+   height: 200px;
+   border-style: solid;
+   border-color: white;
+}
+
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	width: 618px;
+	height: 618px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mole {
+	background-image: url('mole.jpeg');
+	background-size: cover;
+}
